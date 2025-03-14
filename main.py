@@ -11,7 +11,6 @@ class main():
         self.screen.fill((255, 255, 255))
         self.clock = pygame.time.Clock()
 
-asdadawjadnwlkndalkjdwn
     def run(self):
         # 事件迴圈監聽事件，進行事件處理
         while True:
