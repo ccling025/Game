@@ -1,5 +1,6 @@
 import sys
 import pygame
+from scripts.entity import PhysicEntity
 
 class main():
 
@@ -10,6 +11,9 @@ class main():
         pygame.display.set_caption('Hello World:)')
         self.screen.fill((255, 255, 255))
         self.clock = pygame.time.Clock()
+        # self.assets = {
+        #     'player': load_image('entites')
+        # }
 
     def run(self):
         # 事件迴圈監聽事件，進行事件處理
